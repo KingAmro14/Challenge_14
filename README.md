@@ -14,10 +14,12 @@ I will start by tuning the training algorithm by adjusting the size of the train
 #Question 1: What impact resulted from increasing or decreasing the training window?
 
 #Answer: The effect of extending the window is a lower initial point for our returns; but, as the cycle progresses, it stabilizes until 2020 arrives. soaring to new heights and taking a knock from there, ultimately reaching 1.6, which is.2 higher than our 3-month offset. stating that the cumulative return has a positive correlation. 
+![Alt text](Pic1.PNG)
 
 #Question 2: What impact resulted from increasing or decreasing either or both of the SMA windows?
 
 #Answer: There was not much of a change when both SMA windows were increased and decreased. This indicates that our cumulative returns are not significantly affected by the SMA window adjustments.
+![Alt text](Pic2.PNG)
 
 # Part 3 Evaluate a New Machine Learning Classifier
 In this section, Using the original training data as the baseline model, il fit another model with the a new classifier.
@@ -27,6 +29,8 @@ I will then backtest the new model to evaluate its performance. Save a PNG image
 #Question 3:  Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 
 #Answer: The Decision Tree Classifier was the new model that I employed for my investigation. Regretfully, its performance was no better than that of the baseline model. Its baseline model's starting point is 1. The model's final cycle concluded with a return of 1.3, which was.3 less than the baseline model. This demonstrates that the new model is an inappropriate replacement for our approach. 
+
+![Alt text](Pic3.PNG)
 
 # Part 4 Create an Evaluation Report
 
